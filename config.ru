@@ -1,3 +1,5 @@
+# if we want to do things like Rails does we may do this:
+# require ::File.expand_path('../config/application', __FILE__)
 require './config/application'
 
 app = BestQuotes::Application.new
